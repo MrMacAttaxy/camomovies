@@ -39,5 +39,5 @@ style.textContent = `
 document.head.appendChild(style);
 
 function movieshow(url) {
-    window.location.href = "/static/iframe.html#" + url;
+    window.location.href = url;
 }

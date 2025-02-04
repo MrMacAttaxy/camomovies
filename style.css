@@ -8,7 +8,7 @@
 body {
     background-color: #1a1a1a;
     color: #fff;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 

@@ -69,3 +69,14 @@ main {
     z-index: 1;
     overflow: hidden;
 }
+.crosshair {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+    background: none;
+    border: 4px solid rgba(8, 242, 8, 0.8);
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
